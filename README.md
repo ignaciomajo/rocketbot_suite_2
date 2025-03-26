@@ -1,0 +1,1 @@
+# rocketbot_suite_2Robot con conexion a base de datos MySQL para la certificaciÃ³n de Rocketbot Suite 2
