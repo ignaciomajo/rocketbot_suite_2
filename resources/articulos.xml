@@ -1,0 +1,44 @@
+<root>
+    <articulos>
+        <articulo>
+            <producto>Laptop Lenovo IdeaPad 3</producto>
+            <categoria>Laptop</categoria>
+            <precio>750000</precio>
+            <cantidad>5</cantidad>
+            <proveedor>Lenovo</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Samsung Galaxy S21</producto>
+            <categoria>Telefono Movil</categoria>
+            <precio>650000</precio>
+            <cantidad>8</cantidad>
+            <proveedor>Samsung</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Apple iPad Air</producto>
+            <categoria>Tablet</categoria>
+            <precio>550000</precio>
+            <cantidad>6</cantidad>
+            <proveedor>Apple</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Asus ROG Strix G15</producto>
+            <categoria>Laptop</categoria>
+            <precio>1200000</precio>
+            <cantidad>3</cantidad>
+            <proveedor>Asus</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Xiaomi Redmi Note 10</producto>
+            <categoria>Telefono Movil</categoria>
+            <precio>300000</precio>
+            <cantidad>10</cantidad>
+            <proveedor>Xiaomi</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+    </articulos>
+</root>

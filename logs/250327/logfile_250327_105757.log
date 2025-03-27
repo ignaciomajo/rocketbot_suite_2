@@ -1,0 +1,2 @@
+2025-03-27 11:47:20.513747 - rocketbot - INFO - request: rocketbot_suite_2 : line 1 - rpasystem : setVar  id: 657bedc4-0478-ea14-1730-3f6827a481cb -  - (os.getcwd()).replace('\\', '/')
+2025-03-27 11:48:58.433520 - rocketbot - INFO - request: rocketbot_suite_2 : line 1 - rpasystem : setVar  id: 657bedc4-0478-ea14-1730-3f6827a481cb -  - (os.getcwd()).replace('\\', '/')
