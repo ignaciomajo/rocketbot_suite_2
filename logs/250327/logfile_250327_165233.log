@@ -1,0 +1,102 @@
+2025-03-27 16:55:28.760533 - rocketbot - INFO - request: botWeb : line 1 - rpaweb : openbrowser  id: e883cd02-c14c-cf99-c6a1-415819f59f59 - chrome - {"url":"https://form.jotform.com/250856119803055","id_driver":"","profile":""}
+2025-03-27 17:06:08.208134 - rocketbot - INFO - request: botWeb : line 5.2 - rpaweb : sendkey_web  id: 6f25c19a-5011-ac5e-95af-6081c5be333a -  - {"data":"/html/body/form/div[2]/ul/li[2]/div/input","data_type":"xpath","text":"'hola'"}
+2025-03-27 17:26:08.122476 - rocketbot - INFO - request: botMySQL : line 5.1 - rpascripts : module  id: 73eee3eb-dce9-7414-ea59-61321a89cd01 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:43:23.571876 - rocketbot - INFO - request: botExcel : line 2 - rpascripts : module  id: c8328703-119a-6bde-6dec-3fbda08ad4f2 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:46:21.147757 - rocketbot - INFO - request: botExcel : line 3 - rpalogic : evaluateIf  id: 2a505e4d-7469-86e0-3861-206e4a297606 -  - {conn}
+2025-03-27 17:46:21.150252 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_69 ""): NameError: name 'conn' is not defined
+2025-03-27 17:46:30.925378 - rocketbot - INFO - request: botExcel : line 2 - rpascripts : module  id: c8328703-119a-6bde-6dec-3fbda08ad4f2 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:46:33.426935 - rocketbot - INFO - request: botExcel : line 3 - rpalogic : evaluateIf  id: 2a505e4d-7469-86e0-3861-206e4a297606 -  - {conn}
+2025-03-27 17:46:33.748861 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT ({cols}) FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:46:33.751964 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_144 ""): ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}) FROM productos WHERE habilitado = 1' at line 1")
+2025-03-27 17:46:33.752972 - script - ERROR - EXCEPTION IN (<string> script, L_185 ""): Exception: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}) FROM productos WHERE habilitado = 1' at line 1")
+2025-03-27 17:47:08.775422 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT ({cols}) FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:47:08.785606 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_144 ""): OperationalError: (1241, 'Operand should contain 1 column(s)')
+2025-03-27 17:47:08.785606 - script - ERROR - EXCEPTION IN (<string> script, L_185 ""): Error: Already closed
+2025-03-27 17:47:13.910002 - rocketbot - INFO - request: botExcel : line 2 - rpascripts : module  id: c8328703-119a-6bde-6dec-3fbda08ad4f2 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:47:14.966737 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT ({cols}) FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:47:14.970724 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_144 ""): OperationalError: (1241, 'Operand should contain 1 column(s)')
+2025-03-27 17:47:14.970724 - script - ERROR - EXCEPTION IN (<string> script, L_185 ""): Exception: (1241, 'Operand should contain 1 column(s)')
+2025-03-27 17:47:28.353471 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT {cols} FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:54:10.339689 - rocketbot - INFO - request: botExcel : line 2 - rpascripts : module  id: c8328703-119a-6bde-6dec-3fbda08ad4f2 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:54:12.147487 - rocketbot - INFO - request: botExcel : line 3 - rpalogic : evaluateIf  id: 2a505e4d-7469-86e0-3861-206e4a297606 -  - {conn}
+2025-03-27 17:54:12.473361 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT {cols} FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:54:16.756081 - rocketbot - INFO - request: botExcel : line 4 - rpaxls : readxlsx  id: 09b1652e-56b0-91d5-3ab0-cbebaa2121a4 -  - {"file_path":"{path_excel}"}
+2025-03-27 17:54:16.758081 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_115 ""): InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+2025-03-27 17:54:39.638671 - rocketbot - INFO - request: botExcel : line 5 - rpaxls : readxlsx  id: d44859f1-abb3-351e-fa8a-4faa0558e969 -  - {"file_path":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/articulos_disponibles_ventas.xlsx"}
+2025-03-27 17:54:52.173660 - rocketbot - INFO - request: botExcel : line 6 - rpalogic : for  id: 5ef24940-b3d0-6cda-a979-543c17f9aa05 -  - {"iterable":"{articulos_venta}","count":0}
+2025-03-27 17:54:52.174851 - rocketbot - INFO - For count: 1
+2025-03-27 17:54:52.547108 - rocketbot - INFO - request: botExcel : line 6.1 - rpaxls : getrows  id: e9b8ac9b-bdf7-79da-ab22-e760cc1f4e43 -  - filas
+2025-03-27 17:54:52.795208 - rocketbot - INFO - request: botExcel : line 6.2 - rpasystem : setVar  id: 8f301554-468c-1138-7dce-74765ff22742 -  - {filas} + 1
+2025-03-27 17:54:52.856955 - rocketbot - INFO - request: botExcel : line 6.3 - rpasystem : setVar  id: c660e8a4-cae3-5871-6556-42a2c46d10c1 -  - [ val for val in {articulo}.values() ]
+2025-03-27 17:54:53.107607 - rocketbot - INFO - request: botExcel : line 6.4 - rpascripts : module  id: 77ec73e6-976e-ba13-b3c4-a9ebad780075 -  - {"module_name":"System++","module":"setVariable","data":"{articulo}","vars":"id, producto, categoria, precio, cantidad, proveedor"}
+2025-03-27 17:54:53.183696 - rocketbot - INFO - request: botExcel : line 6.5 - rpaxls : setcell  id: f44a7f40-1767-2c0e-d06e-8ec8b4811fa5 -  - A{filas}={id}
+2025-03-27 17:54:53.449975 - rocketbot - INFO - request: botExcel : line 6.6 - rpaxls : setcell  id: ee6664ca-3ccd-e5cb-9478-97656abe24d2 -  - B{filas}={producto}
+2025-03-27 17:54:53.527292 - rocketbot - INFO - request: botExcel : line 6.7 - rpaxls : setcell  id: 257a6ace-d506-efe6-eaf1-f4c5b4e90f1e -  - C{filas}={categoria}
+2025-03-27 17:54:53.758782 - rocketbot - INFO - request: botExcel : line 6.8 - rpaxls : setcell  id: 09a1979a-e413-aa71-335f-7b9e3da58ad4 -  - D{filas}={precio}
+2025-03-27 17:54:53.836302 - rocketbot - INFO - request: botExcel : line 6.9 - rpaxls : setcell  id: c6712616-a3c2-e384-6130-4bb32a07d3c6 -  - E{filas}={cantidad}
+2025-03-27 17:54:54.075115 - rocketbot - INFO - request: botExcel : line 6.10 - rpaxls : setcell  id: 5490fa22-d31c-8631-888f-775ea375f839 -  - F{filas}={proveedor}
+2025-03-27 17:54:54.148680 - rocketbot - INFO - request: botExcel : line 6 - rpalogic : for  id: 5ef24940-b3d0-6cda-a979-543c17f9aa05 -  - {"iterable":"{articulos_venta}","count":1}
+2025-03-27 17:54:54.149677 - rocketbot - INFO - For count: 1
+2025-03-27 17:55:12.463143 - rocketbot - INFO - request: botExcel : line 6.11 - rpaxls : savexlsx  id: 69b1ca04-b6e1-0568-baed-096cb78840b4 -  - {"path":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/articulos_disponibles_ventas.xlsx","result":"res"}
+2025-03-27 17:55:59.267962 - rocketbot - INFO - request: botExcel : line 6.4 - rpascripts : module  id: 77ec73e6-976e-ba13-b3c4-a9ebad780075 -  - {"module_name":"System++","module":"setVariable","data":"{articulo}","vars":"id, producto, categoria, precio, cantidad, proveedor"}
+2025-03-27 17:56:29.630672 - rocketbot - INFO - request: botExcel : line 6.3 - rpasystem : setVar  id: c660e8a4-cae3-5871-6556-42a2c46d10c1 -  - [ val for val in {articulo}.values() ]
+2025-03-27 17:56:29.630672 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): AttributeError: 'list' object has no attribute 'values'
+2025-03-27 17:56:34.981492 - rocketbot - INFO - request: botExcel : line 2 - rpascripts : module  id: c8328703-119a-6bde-6dec-3fbda08ad4f2 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:56:36.543565 - rocketbot - INFO - request: botExcel : line 3 - rpalogic : evaluateIf  id: 2a505e4d-7469-86e0-3861-206e4a297606 -  - {conn}
+2025-03-27 17:56:36.871628 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT {cols} FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:56:46.952747 - rocketbot - INFO - request: botExcel : line 5 - rpaxls : readxlsx  id: d44859f1-abb3-351e-fa8a-4faa0558e969 -  - {"file_path":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/articulos_disponibles_ventas.xlsx"}
+2025-03-27 17:56:48.616269 - rocketbot - INFO - request: botExcel : line 6 - rpalogic : for  id: 5ef24940-b3d0-6cda-a979-543c17f9aa05 -  - {"iterable":"{articulos_venta}","count":0}
+2025-03-27 17:56:48.617265 - rocketbot - INFO - For count: 1
+2025-03-27 17:56:48.960424 - rocketbot - INFO - request: botExcel : line 6.1 - rpaxls : getrows  id: e9b8ac9b-bdf7-79da-ab22-e760cc1f4e43 -  - filas
+2025-03-27 17:56:49.206207 - rocketbot - INFO - request: botExcel : line 6.2 - rpasystem : setVar  id: 8f301554-468c-1138-7dce-74765ff22742 -  - {filas} + 1
+2025-03-27 17:56:49.282784 - rocketbot - INFO - request: botExcel : line 6.3 - rpasystem : setVar  id: c660e8a4-cae3-5871-6556-42a2c46d10c1 -  - [ val for val in {articulo}.values() ]
+2025-03-27 17:56:49.532053 - rocketbot - INFO - request: botExcel : line 6.4 - rpascripts : module  id: 77ec73e6-976e-ba13-b3c4-a9ebad780075 -  - {"module_name":"System++","module":"setVariable","data":"{articulo}","vars":"id, producto, categoria, precio, cantidad, proveedor"}
+2025-03-27 17:56:49.534452 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_54 ""): KeyError: 0
+2025-03-27 17:56:49.536738 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_57 ""): KeyError: 0
+2025-03-27 17:56:49.538087 - script - ERROR - EXCEPTION IN (<string> script, L_185 ""): KeyError: 0
+2025-03-27 17:56:49.624435 - rocketbot - INFO - request: botExcel : line 6.5 - rpaxls : setcell  id: f44a7f40-1767-2c0e-d06e-8ec8b4811fa5 -  - A{filas}={id}
+2025-03-27 17:56:49.856821 - rocketbot - INFO - request: botExcel : line 6.6 - rpaxls : setcell  id: ee6664ca-3ccd-e5cb-9478-97656abe24d2 -  - B{filas}={producto}
+2025-03-27 17:56:49.932850 - rocketbot - INFO - request: botExcel : line 6.7 - rpaxls : setcell  id: 257a6ace-d506-efe6-eaf1-f4c5b4e90f1e -  - C{filas}={categoria}
+2025-03-27 17:56:50.167360 - rocketbot - INFO - request: botExcel : line 6.8 - rpaxls : setcell  id: 09a1979a-e413-aa71-335f-7b9e3da58ad4 -  - D{filas}={precio}
+2025-03-27 17:56:50.258683 - rocketbot - INFO - request: botExcel : line 6.9 - rpaxls : setcell  id: c6712616-a3c2-e384-6130-4bb32a07d3c6 -  - E{filas}={cantidad}
+2025-03-27 17:56:50.482487 - rocketbot - INFO - request: botExcel : line 6.10 - rpaxls : setcell  id: 5490fa22-d31c-8631-888f-775ea375f839 -  - F{filas}={proveedor}
+2025-03-27 17:56:50.573502 - rocketbot - INFO - request: botExcel : line 6.11 - rpaxls : savexlsx  id: 69b1ca04-b6e1-0568-baed-096cb78840b4 -  - {"path":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/articulos_disponibles_ventas.xlsx","result":"res"}
+2025-03-27 17:56:50.807775 - rocketbot - INFO - request: botExcel : line 6 - rpalogic : for  id: 5ef24940-b3d0-6cda-a979-543c17f9aa05 -  - {"iterable":"{articulos_venta}","count":1}
+2025-03-27 17:56:50.809409 - rocketbot - INFO - For count: 1
+2025-03-27 17:57:17.118136 - rocketbot - INFO - request: botExcel : line 6.4 - rpascripts : module  id: 77ec73e6-976e-ba13-b3c4-a9ebad780075 -  - {"module_name":"System++","module":"setVariable","data":"{array}","vars":"id, producto, categoria, precio, cantidad, proveedor"}
+2025-03-27 17:58:23.023420 - rocketbot - INFO - request: botExcel : line 6.4 - rpascripts : module  id: 77ec73e6-976e-ba13-b3c4-a9ebad780075 -  - {"module_name":"System++","module":"setVariable","data":"{array}","vars":"id,producto,categoria,precio,cantidad,proveedor"}
+2025-03-27 17:59:43.812801 - rocketbot - INFO - request: botExcel : line 2 - rpascripts : module  id: c8328703-119a-6bde-6dec-3fbda08ad4f2 -  - {"module_name":"mysql","module":"connect","host":"localhost","port":"3306","db":"rocketbot_suite_2","user":"{user}","pass":"{pass}","result":"conn"}
+2025-03-27 17:59:45.046371 - rocketbot - INFO - request: botExcel : line 3 - rpalogic : evaluateIf  id: 2a505e4d-7469-86e0-3861-206e4a297606 -  - {conn}
+2025-03-27 17:59:45.384092 - rocketbot - INFO - request: botExcel : line 3.1 - rpascripts : module  id: c9dbbf59-a62e-b8bd-a60d-730875b3ca3e -  - {"module_name":"mysql","module":"query","query":"SELECT {cols} FROM productos WHERE habilitado = 1","result":"articulos_venta"}
+2025-03-27 17:59:47.754030 - rocketbot - INFO - request: botExcel : line 5 - rpaxls : readxlsx  id: d44859f1-abb3-351e-fa8a-4faa0558e969 -  - {"file_path":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/articulos_disponibles_ventas.xlsx"}
+2025-03-27 17:59:49.791543 - rocketbot - INFO - request: botExcel : line 6 - rpalogic : for  id: 5ef24940-b3d0-6cda-a979-543c17f9aa05 -  - {"iterable":"{articulos_venta}","count":0}
+2025-03-27 17:59:49.791543 - rocketbot - INFO - For count: 1
+2025-03-27 17:59:50.126731 - rocketbot - INFO - request: botExcel : line 6.1 - rpaxls : getrows  id: e9b8ac9b-bdf7-79da-ab22-e760cc1f4e43 -  - filas
+2025-03-27 17:59:50.393408 - rocketbot - INFO - request: botExcel : line 6.2 - rpasystem : setVar  id: 8f301554-468c-1138-7dce-74765ff22742 -  - {filas} + 1
+2025-03-27 17:59:50.439694 - rocketbot - INFO - request: botExcel : line 6.3 - rpasystem : setVar  id: c660e8a4-cae3-5871-6556-42a2c46d10c1 -  - [ val for val in {articulo}.values() ]
+2025-03-27 17:59:50.708239 - rocketbot - INFO - request: botExcel : line 6.4 - rpascripts : module  id: 77ec73e6-976e-ba13-b3c4-a9ebad780075 -  - {"module_name":"System++","module":"setVariable","data":"{array}","vars":"id,producto,categoria,precio,cantidad,proveedor"}
+2025-03-27 17:59:50.802055 - rocketbot - INFO - request: botExcel : line 6.5 - rpaxls : setcell  id: f44a7f40-1767-2c0e-d06e-8ec8b4811fa5 -  - A{filas}={id}
+2025-03-27 17:59:51.021905 - rocketbot - INFO - request: botExcel : line 6.6 - rpaxls : setcell  id: ee6664ca-3ccd-e5cb-9478-97656abe24d2 -  - B{filas}={producto}
+2025-03-27 17:59:51.113609 - rocketbot - INFO - request: botExcel : line 6.7 - rpaxls : setcell  id: 257a6ace-d506-efe6-eaf1-f4c5b4e90f1e -  - C{filas}={categoria}
+2025-03-27 17:59:51.331756 - rocketbot - INFO - request: botExcel : line 6.8 - rpaxls : setcell  id: 09a1979a-e413-aa71-335f-7b9e3da58ad4 -  - D{filas}={precio}
+2025-03-27 17:59:51.438884 - rocketbot - INFO - request: botExcel : line 6.9 - rpaxls : setcell  id: c6712616-a3c2-e384-6130-4bb32a07d3c6 -  - E{filas}={cantidad}
+2025-03-27 17:59:51.659385 - rocketbot - INFO - request: botExcel : line 6.10 - rpaxls : setcell  id: 5490fa22-d31c-8631-888f-775ea375f839 -  - F{filas}={proveedor}
+2025-03-27 17:59:51.750737 - rocketbot - INFO - request: botExcel : line 6.11 - rpaxls : savexlsx  id: 69b1ca04-b6e1-0568-baed-096cb78840b4 -  - {"path":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/articulos_disponibles_ventas.xlsx","result":"res"}
+2025-03-27 17:59:51.972227 - rocketbot - INFO - request: botExcel : line 6 - rpalogic : for  id: 5ef24940-b3d0-6cda-a979-543c17f9aa05 -  - {"iterable":"{articulos_venta}","count":1}
+2025-03-27 17:59:51.972530 - rocketbot - INFO - For count: 1
+2025-03-27 18:49:03.359859 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system(run {virtual_box})
+2025-03-27 18:49:03.361988 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: invalid syntax (<string>, line 1)
+2025-03-27 18:50:28.688772 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system(start cmd)
+2025-03-27 18:50:28.689900 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)
+2025-03-27 18:50:43.993301 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system("start cmd")
+2025-03-27 18:51:07.924090 - rocketbot - INFO - request: botLegacy : line 4 - rpadesktop : send_keys  id: 9f882f6d-2b9c-3cb7-225d-16f1422e0570 -  - {"text":"run \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Oracle VM VirtualBox\\Oracle VM VirtualBox.lnk\"","key":"ENTER"}
+2025-03-27 18:51:38.833094 - rocketbot - INFO - request: botLegacy : line 4 - rpadesktop : send_keys  id: 9f882f6d-2b9c-3cb7-225d-16f1422e0570 -  - {"text":"'run \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Oracle VM VirtualBox\\Oracle VM VirtualBox.lnk\"'","key":"ENTER"}
+2025-03-27 18:52:18.859426 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle VM VirtualBox\Oracle VM VirtualBox.lnk"')
+2025-03-27 18:52:24.971053 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Oracle VM VirtualBox\Oracle VM VirtualBox.lnk"')
+2025-03-27 18:53:48.717384 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : startapp  id: 05d8190a-c199-a964-8507-1a4e08dd6085 -  - {"path":"\"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Oracle VM VirtualBox\\Oracle VM VirtualBox.lnk\""}
+2025-03-27 18:53:48.720020 - system - ERROR - EXCEPTION IN (<string> system, L_195 ""): FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-03-27 18:53:48.721143 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_684 ""): KeyError: 'getvar'
+2025-03-27 18:54:09.413839 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : startapp  id: 05d8190a-c199-a964-8507-1a4e08dd6085 -  - {"path":"\"C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Oracle VM VirtualBox/Oracle VM VirtualBox.lnk\""}
+2025-03-27 18:54:09.414835 - system - ERROR - EXCEPTION IN (<string> system, L_195 ""): FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-03-27 18:54:09.415832 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_684 ""): KeyError: 'getvar'
+2025-03-27 18:55:27.426327 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : startapp  id: 05d8190a-c199-a964-8507-1a4e08dd6085 -  - {"path":"C:/Program Files/Oracle/VirtualBox/VirtualBox.exe"}
