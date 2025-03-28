@@ -1,0 +1,6 @@
+C:\Users\Ignacio\OneDrive\Documents\git-and-github\rocketbot_suite_2\rocketbot_suite_2\resources>dir /s /b
+C:\Users\Ignacio\OneDrive\Documents\git-and-github\rocketbot_suite_2\rocketbot_suite_2\resources\articulos.xml
+C:\Users\Ignacio\OneDrive\Documents\git-and-github\rocketbot_suite_2\rocketbot_suite_2\resources\articulos_disponibles_ventas.xlsx
+C:\Users\Ignacio\OneDrive\Documents\git-and-github\rocketbot_suite_2\rocketbot_suite_2\resources\config.ini
+
+C:\Users\Ignacio\OneDrive\Documents\git-and-github\rocketbot_suite_2\rocketbot_suite_2\resources>

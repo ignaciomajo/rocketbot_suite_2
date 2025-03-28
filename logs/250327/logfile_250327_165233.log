@@ -100,3 +100,169 @@
 2025-03-27 18:54:09.414835 - system - ERROR - EXCEPTION IN (<string> system, L_195 ""): FileNotFoundError: [WinError 2] The system cannot find the file specified
 2025-03-27 18:54:09.415832 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_684 ""): KeyError: 'getvar'
 2025-03-27 18:55:27.426327 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : startapp  id: 05d8190a-c199-a964-8507-1a4e08dd6085 -  - {"path":"C:/Program Files/Oracle/VirtualBox/VirtualBox.exe"}
+2025-03-27 21:34:00.445943 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}
+2025-03-27 21:34:00.448893 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: unterminated string literal (detected at line 1) (<string>, line 1)
+2025-03-27 21:34:08.307598 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res'}
+2025-03-27 21:34:08.308594 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: closing parenthesis '}' does not match opening parenthesis '(' (<string>, line 1)
+2025-03-27 21:34:16.789925 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 21:34:48.346782 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 21:34:56.877818 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 21:35:16.717865 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 21:38:06.149668 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:03:53.714498 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:03:53.808332 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:03:54.023964 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:03:56.033238 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - dir /s /b
+2025-03-27 22:03:56.035234 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): NameError: name 's' is not defined
+2025-03-27 22:03:56.403542 - rocketbot - INFO - request: botLegacy : line 6 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","key_":"enter"}
+2025-03-27 22:03:57.770802 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 96485202-ddf1-fe4a-aeba-57ded0334ef4 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 22:03:57.958599 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:03:58.022973 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:03:58.267692 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:04:00.275618 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - dir /s /b
+2025-03-27 22:04:00.278137 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): NameError: name 's' is not defined
+2025-03-27 22:04:00.284600 - rocketbot - INFO - request: botLegacy : line 6 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","key_":"enter"}
+2025-03-27 22:04:01.297788 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: c3fb26cd-5a93-cda8-9ccd-2e1ea71efd48 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 22:04:01.606157 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: 17972f09-1028-33d8-c6eb-07edd2f1be5c -  - {"module_name":"clipboard","module":"getClipboard","var_":"{dir_content}"}
+2025-03-27 22:04:26.985180 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:04:27.256903 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:04:27.302850 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:04:29.314152 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:04:29.677035 - rocketbot - INFO - request: botLegacy : line 6 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","key_":"enter"}
+2025-03-27 22:04:38.793055 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 96485202-ddf1-fe4a-aeba-57ded0334ef4 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 22:04:39.301737 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: c3fb26cd-5a93-cda8-9ccd-2e1ea71efd48 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 22:04:39.561964 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: 17972f09-1028-33d8-c6eb-07edd2f1be5c -  - {"module_name":"clipboard","module":"getClipboard","var_":"{dir_content}"}
+2025-03-27 22:05:15.377842 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:05:15.644995 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:05:15.704938 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:05:17.719260 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:05:18.091298 - rocketbot - INFO - request: botLegacy : line 6 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","key_":"enter","sleep":"0"}
+2025-03-27 22:05:18.356390 - rocketbot - INFO - request: botLegacy : line 7 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:05:18.470603 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: 96485202-ddf1-fe4a-aeba-57ded0334ef4 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 22:05:18.966966 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: c3fb26cd-5a93-cda8-9ccd-2e1ea71efd48 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 22:05:19.228285 - rocketbot - INFO - request: botLegacy : line 10 - rpascripts : module  id: 17972f09-1028-33d8-c6eb-07edd2f1be5c -  - {"module_name":"clipboard","module":"getClipboard","var_":"{dir_content}"}
+2025-03-27 22:05:26.876344 - rocketbot - INFO - request: botLegacy : line 10 - rpascripts : module  id: 17972f09-1028-33d8-c6eb-07edd2f1be5c -  - {"module_name":"clipboard","module":"getClipboard","var_":"{dir_content}"}
+2025-03-27 22:05:48.450502 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:05:48.715728 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:05:48.759901 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:05:50.769434 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:05:51.144485 - rocketbot - INFO - request: botLegacy : line 6 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","key_":"enter","sleep":"0"}
+2025-03-27 22:05:51.406091 - rocketbot - INFO - request: botLegacy : line 7 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:05:51.534105 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: 96485202-ddf1-fe4a-aeba-57ded0334ef4 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 22:05:52.040185 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: c3fb26cd-5a93-cda8-9ccd-2e1ea71efd48 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 22:05:52.304779 - rocketbot - INFO - request: botLegacy : line 10 - rpascripts : module  id: 17972f09-1028-33d8-c6eb-07edd2f1be5c -  - {"module_name":"clipboard","module":"getClipboard","var_":"dir_content"}
+2025-03-27 22:08:39.453737 - rocketbot - INFO - request: botLegacy : line 11 - rpadesktop : alert  id: fff5d099-a3b3-ff64-7aa2-079c0c471e73 -  - {dir_content}
+2025-03-27 22:09:43.452380 - rocketbot - INFO - request: botLegacy : line 11 - rpadesktop : alert  id: fff5d099-a3b3-ff64-7aa2-079c0c471e73 -  - {dir_content}
+2025-03-27 22:12:17.199786 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - {dir_content}.split("\n").strip()
+2025-03-27 22:12:17.202114 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: invalid syntax (<string>, line 2)
+2025-03-27 22:12:23.526452 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - {dir_content}.split("\n")
+2025-03-27 22:12:23.528493 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: invalid syntax (<string>, line 2)
+2025-03-27 22:13:12.676787 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - "{dir_content}".split("\n")
+2025-03-27 22:13:12.678874 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: unterminated string literal (detected at line 1) (<string>, line 1)
+2025-03-27 22:13:31.228296 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - "{dir_content}".split("\\n")
+2025-03-27 22:13:31.229293 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: unterminated string literal (detected at line 1) (<string>, line 1)
+2025-03-27 22:13:45.949112 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - {dir_content}.split("\n")
+2025-03-27 22:13:45.949112 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: invalid syntax (<string>, line 2)
+2025-03-27 22:14:01.979437 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - '{dir_content}'.split("\n")
+2025-03-27 22:14:01.980775 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: unterminated string literal (detected at line 1) (<string>, line 1)
+2025-03-27 22:15:57.667073 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - str({dir_content}).split("\n")
+2025-03-27 22:15:57.669429 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: '(' was never closed (<string>, line 1)
+2025-03-27 22:17:29.348731 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - {dir_content}.split("C:")
+2025-03-27 22:17:29.350742 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: invalid syntax (<string>, line 2)
+2025-03-27 22:17:36.393836 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - '{dir_content}'.split("C:")
+2025-03-27 22:17:36.394833 - system - ERROR - EXCEPTION IN (<string> system, L_253 ""): SyntaxError: unterminated string literal (detected at line 1) (<string>, line 1)
+2025-03-27 22:23:22.125138 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in """{dir_content}"""
+2025-03-27 22:23:22.126536 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_91 ""): SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 3-4: truncated \UXXXXXXXX escape (<string>, line 8)
+2025-03-27 22:23:35.550726 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - {buscar} not in """{dir_content}"""
+2025-03-27 22:23:35.551830 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_91 ""): SyntaxError: invalid syntax (<string>, line 1)
+2025-03-27 22:23:52.752573 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - {buscar} not in r"""{dir_content}"""
+2025-03-27 22:23:52.754057 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_91 ""): SyntaxError: invalid syntax (<string>, line 1)
+2025-03-27 22:23:58.488991 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in r"""{dir_content}"""
+2025-03-27 22:24:04.816775 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - "articulos"
+2025-03-27 22:24:06.382983 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in r"""{dir_content}"""
+2025-03-27 22:24:20.275693 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in r"""{dir_content}"""
+2025-03-27 22:24:20.930583 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in r"""{dir_content}"""
+2025-03-27 22:24:21.540701 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in r"""{dir_content}"""
+2025-03-27 22:24:22.245085 - rocketbot - INFO - request: botLegacy : line 12.1 - rpascripts : module  id: 41f6d018-3782-cb9b-6010-6dc4d397bdc3 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 22:24:35.921263 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:24:36.186316 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:24:36.246696 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:24:38.256679 - rocketbot - INFO - request: botLegacy : line 5 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:24:38.624308 - rocketbot - INFO - request: botLegacy : line 6 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","key_":"enter","sleep":"0"}
+2025-03-27 22:24:38.874144 - rocketbot - INFO - request: botLegacy : line 7 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:24:38.987789 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: 96485202-ddf1-fe4a-aeba-57ded0334ef4 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 22:24:39.494158 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: c3fb26cd-5a93-cda8-9ccd-2e1ea71efd48 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 22:24:39.756207 - rocketbot - INFO - request: botLegacy : line 10 - rpascripts : module  id: 17972f09-1028-33d8-c6eb-07edd2f1be5c -  - {"module_name":"clipboard","module":"getClipboard","var_":"dir_content"}
+2025-03-27 22:24:39.989412 - rocketbot - INFO - request: botLegacy : line 11 - rpasystem : setVar  id: 2e6afbc7-0b2a-09cf-525b-1cb2981a5f5f -  - "articulos"
+2025-03-27 22:24:40.129362 - rocketbot - INFO - request: botLegacy : line 12 - rpalogic : evaluatewhile  id: ce4aa9a8-497d-53fa-7983-bc4ab9ee2539 -  - "{buscar}" not in r"""{dir_content}"""
+2025-03-27 22:35:40.869453 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:35:40.920786 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:35:41.178710 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:35:43.186850 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:35:43.558184 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"'copy {path_xml} {path_share}'","sleep":"0"}
+2025-03-27 22:35:43.820496 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:35:43.930374 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"'copy {path_res}/articulos_disponibles_ventas.xlsx {path_share}'","sleep":"0"}
+2025-03-27 22:35:44.332888 - rocketbot - INFO - request: botLegacy : line 8 - rpadesktop : send_keys  id: f4270cb0-fb39-d805-837e-c70a1fc6dfc3 -  - {"key":"ENTER"}
+2025-03-27 22:36:04.560835 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:36:04.829602 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:36:04.875047 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:36:06.901176 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:36:07.267313 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"copy {path_xml} {path_share}","sleep":"0"}
+2025-03-27 22:36:07.512658 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:36:07.626553 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"'copy {path_res}/articulos_disponibles_ventas.xlsx {path_share}'","sleep":"0"}
+2025-03-27 22:36:07.995735 - rocketbot - INFO - request: botLegacy : line 8 - rpadesktop : send_keys  id: f4270cb0-fb39-d805-837e-c70a1fc6dfc3 -  - {"key":"ENTER"}
+2025-03-27 22:37:36.948899 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:37:37.026505 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:37:37.262071 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:37:39.283051 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:37:39.657176 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"copy {path_xml} {path_share}","sleep":"0"}
+2025-03-27 22:37:39.904908 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:37:40.026276 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"'copy {path_res}/articulos_disponibles_ventas.xlsx {path_share}'","sleep":"0"}
+2025-03-27 22:37:40.396261 - rocketbot - INFO - request: botLegacy : line 8 - rpadesktop : send_keys  id: f4270cb0-fb39-d805-837e-c70a1fc6dfc3 -  - {"key":"ENTER"}
+2025-03-27 22:40:14.601294 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:40:14.656611 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:40:14.922409 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:40:16.941104 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:40:17.343192 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"copy \"{path_xml}\" \"{path_share}\"","sleep":"0"}
+2025-03-27 22:40:17.604208 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:40:17.713804 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"copy \"{path_res}/articulos_disponibles_ventas.xlsx\" \"{path_share}\"","sleep":"0"}
+2025-03-27 22:40:18.084999 - rocketbot - INFO - request: botLegacy : line 8 - rpadesktop : send_keys  id: f4270cb0-fb39-d805-837e-c70a1fc6dfc3 -  - {"key":"ENTER"}
+2025-03-27 22:43:13.856596 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 22:43:14.283911 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 22:43:14.549282 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 22:43:16.577955 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 22:43:16.955490 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 1fa7317c-918a-96ce-cded-0315c633bd2f -  - {"module_name":"Keyboard_","module":"send","text":"copy {path_xml} {path_share}","sleep":"0"}
+2025-03-27 22:43:17.203741 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 22:43:17.328220 - rocketbot - INFO - request: botLegacy : line 7 - rpasystem : setVar  id: 4fcf9824-a343-6237-e484-c0b013e49109 -  - "{path_res}/articulos_disponibles_ventas.xlsx"
+2025-03-27 22:43:17.648425 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"copy {path_archivo} {path_share}","sleep":"0"}
+2025-03-27 22:43:17.910925 - rocketbot - INFO - request: botLegacy : line 9 - rpadesktop : send_keys  id: f4270cb0-fb39-d805-837e-c70a1fc6dfc3 -  - {"key":"ENTER"}
+2025-03-27 22:50:18.146438 - rocketbot - INFO - request: botLegacy : line 9 - rpafile : savedatafile  id: 42a3278a-6099-00d1-ec15-87e2c18400e2 -  - {"file_name":"path_rutas = C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.txt","type":"add","new_line":"","file_data":"{dir_content}"}
+2025-03-27 22:50:18.148456 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_74 ""): OSError: [Errno 22] Invalid argument: 'path_rutas = C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.txt'
+2025-03-27 22:50:28.416777 - rocketbot - INFO - request: botLegacy : line 9 - rpafile : savedatafile  id: 42a3278a-6099-00d1-ec15-87e2c18400e2 -  - {"file_name":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.txt","type":"add","new_line":"","file_data":"{dir_content}"}
+2025-03-27 23:02:14.816353 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 23:02:14.893201 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 23:02:15.124711 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 23:02:17.147755 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 23:02:17.514082 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","sleep":"0"}
+2025-03-27 23:02:17.778928 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 23:02:17.904225 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 1dedd60c-a140-d6af-60bf-964d7ea06b5b -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 23:02:18.416285 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: 99019726-ee2a-49e4-7179-7e054aa0cdb5 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 23:02:18.683542 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: ba92fb43-4aae-6076-319a-ece4c485d8ae -  - {"module_name":"clipboard","module":"getClipboard","var_":"{dir_content}"}
+2025-03-27 23:02:18.917589 - rocketbot - INFO - request: botLegacy : line 10 - rpafile : savedatafile  id: 42a3278a-6099-00d1-ec15-87e2c18400e2 -  - {"file_name":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.txt","type":"add","new_line":"","file_data":"{dir_content}"}
+2025-03-27 23:11:27.425986 - rocketbot - INFO - request: botLegacy : line 1 - rpasystem : setVar  id: 3240227b-086c-47d2-6187-9da8f62e4275 -  - datetime.now()
+2025-03-27 23:11:27.487070 - rocketbot - INFO - request: botLegacy : line 2 - rpasystem : setVar  id: 3eed64b4-2a1d-ef7d-344a-86adfab0c3f8 -  - os.system('start cmd /K cd {path_res}')
+2025-03-27 23:11:27.739916 - rocketbot - INFO - request: botLegacy : line 3 - rpasystem : wait  id: b64588a6-7cf6-fda9-c173-e3a406a9562f -  - 2
+2025-03-27 23:11:29.748794 - rocketbot - INFO - request: botLegacy : line 4 - rpasystem : setVar  id: a8a20675-f6d8-334d-29ad-41e9d94522c5 -  - "dir /s /b"
+2025-03-27 23:11:30.129418 - rocketbot - INFO - request: botLegacy : line 5 - rpascripts : module  id: 2990cf96-5b62-79ad-c650-0cde9b05243c -  - {"module_name":"Keyboard_","module":"send","text":"{listar}","sleep":"0"}
+2025-03-27 23:11:30.377868 - rocketbot - INFO - request: botLegacy : line 6 - rpadesktop : send_keys  id: 259865aa-470e-b01b-f702-ccb34c4aac74 -  - {"key":"ENTER"}
+2025-03-27 23:11:30.491596 - rocketbot - INFO - request: botLegacy : line 7 - rpascripts : module  id: 1dedd60c-a140-d6af-60bf-964d7ea06b5b -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrla"}
+2025-03-27 23:11:31.000227 - rocketbot - INFO - request: botLegacy : line 8 - rpascripts : module  id: 99019726-ee2a-49e4-7179-7e054aa0cdb5 -  - {"module_name":"Keyboard_","module":"sendKey","key_":"ctrlc"}
+2025-03-27 23:11:31.260684 - rocketbot - INFO - request: botLegacy : line 9 - rpascripts : module  id: ba92fb43-4aae-6076-319a-ece4c485d8ae -  - {"module_name":"clipboard","module":"getClipboard","var_":"{dir_content}"}
+2025-03-27 23:11:31.499596 - rocketbot - INFO - request: botLegacy : line 10 - rpafile : savedatafile  id: 42a3278a-6099-00d1-ec15-87e2c18400e2 -  - {"file_name":"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.txt","type":"add","new_line":"","file_data":"{dir_content}"}
+2025-03-27 23:11:31.625140 - rocketbot - INFO - request: botLegacy : line 11 - rpascripts : execpython  id: ef81e259-cead-70af-a57d-7cf92dc36a5e -  - "C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.py"
+2025-03-27 23:11:31.627162 - script - ERROR - EXCEPTION IN (<string> script, L_128 ""): OSError: [Errno 22] Invalid argument: '"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/rutas.py"'
+2025-03-27 23:11:31.822724 - rocketbot - INFO - request: botLegacy : line 12 - rpascripts : module  id: 04983981-1400-4ea2-b66a-f2a9ed88a6ab -  - {"module_name":"Files","module":"readFile","file_":"\"C:/Users/Ignacio/OneDrive/Documents/git-and-github/rocketbot_suite_2/rocketbot_suite_2/resources/ruta_xml.txt\"","encoding":"utf-8","var_":"path_xml"}
+2025-03-27 23:11:31.863406 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_288 ""): NameError: name 'result' is not defined
+2025-03-27 23:11:31.864489 - script - ERROR - EXCEPTION IN (<string> script, L_185 ""): NameError: name 'result' is not defined
+2025-03-27 23:11:31.946264 - rocketbot - INFO - request: botLegacy : line 13 - rpasystem : setVar  id: 6b844002-c86a-2962-c5b8-4d6979a39d42 -  - os.system("start cmd /K cd {path_res}")
+2025-03-27 23:11:32.183657 - rocketbot - INFO - request: botLegacy : line 14 - rpascripts : module  id: 51babd63-be6c-b7a0-f4a3-75bba0bdda0b -  - {"module_name":"Keyboard_","module":"send","text":"copy {path_xml} {path_share}"}
