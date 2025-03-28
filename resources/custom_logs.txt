@@ -1,0 +1,8 @@
+
+Inicio Proceso Main: 2025-03-28 14:05:01.966374
+Inicio Proceso FTP: 2025-03-28 14:05:03.569353
+Fin Proceso FTP: 2025-03-28 14:05:19.295820
+Inicio Proceso XML: 2025-03-28 14:05:19.306972
+Timestamp Error: 2025-03-28 14:07:11.639012
+Mensaje error: No se pudo guardar el archivo Excel
+Inicio Proceso Main: 2025-03-28 14:08:36.697438

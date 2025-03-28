@@ -14,7 +14,7 @@
             <precio>650000</precio>
             <cantidad>8</cantidad>
             <proveedor>Samsung</proveedor>
-            <habilitado>1</habilitado>
+            <habilitado>0</habilitado>
         </articulo>
         <articulo>
             <producto>Apple iPad Air</producto>
@@ -30,7 +30,7 @@
             <precio>1200000</precio>
             <cantidad>3</cantidad>
             <proveedor>Asus</proveedor>
-            <habilitado>1</habilitado>
+            <habilitado>0</habilitado>
         </articulo>
         <articulo>
             <producto>Xiaomi Redmi Note 10</producto>
@@ -39,6 +39,46 @@
             <cantidad>10</cantidad>
             <proveedor>Xiaomi</proveedor>
             <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Dell XPS 15</producto>
+            <categoria>Laptop</categoria>
+            <precio>1500000</precio>
+            <cantidad>4</cantidad>
+            <proveedor>Dell</proveedor>
+            <habilitado>0</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Google Pixel 6</producto>
+            <categoria>Telefono Movil</categoria>
+            <precio>700000</precio>
+            <cantidad>7</cantidad>
+            <proveedor>Google</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>Huawei MatePad Pro</producto>
+            <categoria>Tablet</categoria>
+            <precio>600000</precio>
+            <cantidad>5</cantidad>
+            <proveedor>Huawei</proveedor>
+            <habilitado>0</habilitado>
+        </articulo>
+        <articulo>
+            <producto>HP Spectre x360</producto>
+            <categoria>Laptop</categoria>
+            <precio>1300000</precio>
+            <cantidad>2</cantidad>
+            <proveedor>HP</proveedor>
+            <habilitado>1</habilitado>
+        </articulo>
+        <articulo>
+            <producto>OnePlus 9 Pro</producto>
+            <categoria>Telefono Movil</categoria>
+            <precio>750000</precio>
+            <cantidad>6</cantidad>
+            <proveedor>OnePlus</proveedor>
+            <habilitado>0</habilitado>
         </articulo>
     </articulos>
 </root>
